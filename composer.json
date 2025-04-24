@@ -1,0 +1,18 @@
+{
+    "name": "usuario/gerar_pdf",
+    "require": {
+        "dompdf/dompdf": "^3.1",
+        "setasign/fpdf": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Usuario\\GerarPdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Ryk",
+            "email": "marco.look@outlook.com"
+        }
+    ]
+}
